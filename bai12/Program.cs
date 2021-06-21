@@ -1,136 +1,161 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace bai12
 {
     class Program
     {
-        public class members{
-            private string firstname;
-            private string lastname;
-            private string gender;
-            private DateTime dob;
-            private int phonenumber;
-            private string birthplace;
-            private int age;
-            private string isgraduated;
 
-           // int DateTime.Year Dob { get; }
-
-            public string Firstname { get => firstname; set => firstname = value; }
-            public string Lastname { get => lastname; set => lastname = value; }
-            public string Gender { get => gender; set => gender = value; }
-            public DateTime Dob { get => dob; set => dob = value; }
-            public int Phonenumber { get => phonenumber; set => phonenumber = value; }
-            public string Birthplace { get => birthplace; set => birthplace = value; }
-            public int Age { get => age; set => age = value; }
-            public string Isgraduated { get => isgraduated; set => isgraduated = value; }
-
-            public members(string firstname, string lastname, string gender, DateTime dob, int phonenumber, string birthplace, int age, string isgraduated)
-            {
-                this.Firstname = firstname;
-                this.Lastname = lastname;
-                this.Gender = gender;
-                this.Dob = dob;
-                this.Phonenumber = phonenumber;
-                this.Birthplace = birthplace;
-                this.Age = age;
-                this.Isgraduated = isgraduated;
-            }
-        
-        }
         static void Main(string[] args)
         {
-            List<members> listmembers = new List<members>();
-            listmembers.Add(new members("nguyen van","ba","male",new DateTime(1995,1,2),0123456,"HP",23,"yes"));
-            listmembers.Add(new members("nguyen van","bon","male",new DateTime(2002,1,2),0123456,"NA",25,"yes"));
-            listmembers.Add(new members("nguyen van","nam","female",new DateTime(2000,1,2),0123456,"HN",19,"no"));
-            listmembers.Add(new members("nguyen van","sau","male",new DateTime(2003,1,2),0123456,"TH",27,"yes"));
-            listmembers.Add(new members("nguyen van","bay","male",new DateTime(1999,1,2),0123456,"HN",30,"no"));
-            listmembers.Add(new members("nguyen van","tam","male",new DateTime(1997,1,2),0123456,"SG",24,"yes"));
-            rushb:
+            List<Member> listMember = new List<Member>();
+            listMember.Add(new Member("nguyen van", "ba", "male", new DateTime(1995, 1, 2), 0123456, "HP", 26, "yes"));
+            listMember.Add(new Member("nguyen van", "bon", "male", new DateTime(2002, 1, 2), 0123456, "NA", 19, "yes"));
+            listMember.Add(new Member("nguyen van", "nam", "female", new DateTime(2000, 1, 2), 0123456, "HN", 21, "no"));
+            listMember.Add(new Member("nguyen van", "sau", "male", new DateTime(2003, 1, 2), 0123456, "TH", 18, "yes"));
+            listMember.Add(new Member("nguyen van", "bay", "male", new DateTime(1999, 1, 2), 0123456, "HN", 22, "no"));
+            listMember.Add(new Member("nguyen van", "tam", "male", new DateTime(1997, 1, 2), 0123456, "SG", 24, "yes"));
+        rushb:
             Console.WriteLine("1. hien thi ra ai la gioi tinh nam");
             Console.WriteLine("2. hien thi ra ai la lon tuoi nhat in 1 lan");
             Console.WriteLine("3. hien thi chuoi moi chi ho va ten");
             Console.WriteLine("4. hien thi ra ai sinh nam 2000 hoac nho hon 2000 hoac lon hon 2000");
             Console.WriteLine("5. hien thi ra nguoi dau tien o ha noi");
             Console.WriteLine("6. Thoat");
+            Console.Write("Vui long nhap so ban mong muon");
             int a = Int32.Parse(Console.ReadLine());
-            
+
             switch (a)
             {
                 case 1:
-                    foreach(var i in listmembers){
-                    if(i.Gender =="male"){
-                     Console.WriteLine(i.Firstname + " "+ i.Lastname +" " +i.Gender+" "+i.Dob+" "+i.Phonenumber+" " +i.Birthplace+" "+i.Age+" "+i.Isgraduated);
-                    }               
-                    }
-                    
+                    GetMaleMemberList(listMember);
+
                     break;
                 case 2:
-                    List<int> tuoi = new List<int>();
-                    foreach( var i in listmembers){
-                        int age = DateTime.Now.Year - i.Dob.Year;
-                        tuoi.Add(age);
-                    }
-                    int h=0;
-                    foreach(var i in tuoi){
-                        if (i>h){
-                            h=i;
-                        }
-                    }
-                    Console.WriteLine(h);
+                    //GetOldest(listMember);
+                    GetOldestLinQ(listMember);
 
                     break;
                 case 3:
-                    foreach(var i in listmembers){
-                        Console.WriteLine(i.Firstname+" "+i.Lastname);
-                    }
-                    goto rushb;
-                    
+                    GetFullName(listMember);
+                    break;
+
                 case 4:
-                    Console.WriteLine("1. hien thi ra ai sinh ra nam 2000");
-                    Console.WriteLine("2. hien thi ra ai >2000");
-                    Console.WriteLine("3. hien thi ra ai <2000");
-                    int b= Int32.Parse(Console.ReadLine());
-                    switch(b){
-                        case 1:
-                            foreach(var i in listmembers){
-                                if(i.Dob.Year ==2000){
-                                    Console.WriteLine(i.Firstname+" "+i.Lastname);
-                                }
-                            }
-                            break;
-                        case 2:
-                            foreach(var i in listmembers){
-                                if(i.Dob.Year >2000){
-                                    Console.WriteLine(i.Firstname+" "+i.Lastname);
-                                }
-                            }
-                            break;
-                        case 3:
-                            foreach(var i in listmembers){
-                                if(i.Dob.Year <2000){
-                                    Console.WriteLine(i.Firstname+" "+i.Lastname);
-                                }
-                            }
-                            break;
-                     }
+                    GetBirthYear(listMember);
                     break;
                 case 5:
-                    foreach(var i in listmembers){
-                        if(i.Birthplace == "HN"){
-                            Console.WriteLine(i.Firstname+" " + i.Lastname);
-                            break;
-                        }
-                    }
+                    GetPersonInHaNoi(listMember);
                     break;
                 case 6:
-                    
-                    return ;
-                
+
+                    return;
+
             }
             goto rushb;
+            static void GetMaleMemberList(List<Member> listMember)
+            {
+
+                foreach (var i in listMember)
+                {
+                    if (i.Gender == "male")
+                    {
+                        Console.WriteLine(i.FirstName + " " + i.LastName + " " + i.Gender + " " + i.Dob + " " + i.PhoneNumber + " " + i.BirthPlace + " " + i.Age + " " + i.IsGraduated);
+                    }
+                }
+            }
+            static void GetFullName(List<Member> listMember)
+            {
+                foreach (var i in listMember)
+                {
+                    Console.WriteLine(i.FirstName + " " + i.LastName);
+                }
+            }
+            static void GetBirthYear(List<Member> listMember)
+            {
+                Console.WriteLine("1. hien thi ra ai sinh ra nam 2000");
+                Console.WriteLine("2. hien thi ra ai >2000");
+                Console.WriteLine("3. hien thi ra ai <2000");
+                int b = Int32.Parse(Console.ReadLine());
+                switch (b)
+                {
+                    case 1:
+                        foreach (var i in listMember)
+                        {
+                            if (i.Dob.Year == 2000)
+                            {
+                                Console.WriteLine(i.FirstName + " " + i.LastName);
+                            }
+                        }
+                        break;
+                    case 2:
+                        foreach (var i in listMember)
+                        {
+                            if (i.Dob.Year > 2000)
+                            {
+                                Console.WriteLine(i.FirstName + " " + i.LastName);
+                            }
+                        }
+                        break;
+                    case 3:
+                        foreach (var i in listMember)
+                        {
+                            if (i.Dob.Year < 2000)
+                            {
+                                Console.WriteLine(i.FirstName + " " + i.LastName);
+                            }
+                        }
+                        break;
+                }
+            }
+            static void GetPersonInHaNoi(List<Member> listMember)
+            {
+                foreach (var i in listMember)
+                {
+                    if (i.BirthPlace == "HN")
+                    {
+                        Console.WriteLine(i.FirstName + " " + i.LastName);
+                        break;
+                    }
+                }
+            }
+            static void GetOldest(List<Member> listMember)
+            {
+                List<int> temp = new List<int>();
+                foreach (var i in listMember)
+                {
+                    int age = DateTime.Now.Year - i.Dob.Year;
+                    temp.Add(age);
+                }
+                int h = 0;
+                foreach (var i in temp)
+                {
+                    if (i > h)
+                    {
+                        h = i;
+                    }
+                }
+                foreach (var i in listMember)
+                {
+                    if (i.Age == h)
+                    {
+                        Console.WriteLine(i.FirstName + " " + i.LastName + " " + i.Age);
+                    }
+                }
+            }
+            static void GetOldestLinQ(List<Member> listMember)
+            {
+                var result = (from member in listMember
+                              select member.Age).Max();
+                foreach (var i in listMember)
+                {
+                    if (i.Age == result)
+                    {
+                        Console.WriteLine(i.FirstName + " " + i.LastName + " " + i.Age);
+                    }
+                }
+            }
         }
+
     }
 }
