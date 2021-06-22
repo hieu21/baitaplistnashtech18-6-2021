@@ -1,0 +1,13 @@
+E:\E\nashtech\bai4\bin\Debug\netcoreapp3.1\bai4.exe
+E:\E\nashtech\bai4\bin\Debug\netcoreapp3.1\bai4.deps.json
+E:\E\nashtech\bai4\bin\Debug\netcoreapp3.1\bai4.runtimeconfig.json
+E:\E\nashtech\bai4\bin\Debug\netcoreapp3.1\bai4.runtimeconfig.dev.json
+E:\E\nashtech\bai4\bin\Debug\netcoreapp3.1\bai4.dll
+E:\E\nashtech\bai4\bin\Debug\netcoreapp3.1\bai4.pdb
+E:\E\nashtech\bai4\obj\Debug\netcoreapp3.1\bai4.csprojAssemblyReference.cache
+E:\E\nashtech\bai4\obj\Debug\netcoreapp3.1\bai4.AssemblyInfoInputs.cache
+E:\E\nashtech\bai4\obj\Debug\netcoreapp3.1\bai4.AssemblyInfo.cs
+E:\E\nashtech\bai4\obj\Debug\netcoreapp3.1\bai4.csproj.CoreCompileInputs.cache
+E:\E\nashtech\bai4\obj\Debug\netcoreapp3.1\bai4.dll
+E:\E\nashtech\bai4\obj\Debug\netcoreapp3.1\bai4.pdb
+E:\E\nashtech\bai4\obj\Debug\netcoreapp3.1\bai4.genruntimeconfig.cache
