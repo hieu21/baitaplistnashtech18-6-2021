@@ -1,0 +1,8 @@
+@model List<PersonModel>
+@{
+    foreach (var i in Model)
+    {
+        <li>@i.FirstName  @i.LastName @i.Gender @i.Dob @i.PhoneNumber @i.BirthPlace @i.Age @i.IsGraduated</li>
+        break;
+    }
+}
