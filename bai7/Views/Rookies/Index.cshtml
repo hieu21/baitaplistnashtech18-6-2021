@@ -1,0 +1,40 @@
+@using Microsoft.AspNetCore.Http    
+@* @inject IHttpContextAccessor httpContextAccessor    *@
+@model IEnumerable<bai7.Models.PersonModel>
+
+@* @model List<PersonModel> *@
+
+
+
+<table>
+    <tr>
+        <a asp-controller="Rookies" asp-action="Create">Create</a>
+    </tr>
+    <tr>
+        
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Gender</th>
+        <th>Date Of Birth</th>
+        <th>Phone Number</th>
+        <th>Email</th>
+        
+    </tr>
+    @{
+        foreach(var i in Model){
+        <tr>
+        <td>@i.FirstName</td>
+        <td>@i.LastName</td>
+        <td>@i.Gender</td>
+        <td>@i.Dob</td>
+        <td>@i.PhoneNumber</td>
+        <td>@i.Email</td>
+        <td>@Html.ActionLink("Edit", "Edit", new { phoneNumber = i.PhoneNumber })</td>
+        <td>@Html.ActionLink("Delete", "Delete",new { phoneNumber = i.PhoneNumber },new { onclick = "return confirm('Are you sure you wish to delete this?');" })</td>
+        <td>@Html.ActionLink("Detail", "Detail", new { phoneNumber = i.PhoneNumber })</td>
+        </tr>
+        }
+        
+    }
+    
+</table>

@@ -1,0 +1,83 @@
+E:\E\nashtech\bai7\bin\Debug\netcoreapp3.1\appsettings.Development.json
+E:\E\nashtech\bai7\bin\Debug\netcoreapp3.1\appsettings.json
+E:\E\nashtech\bai7\bin\Debug\netcoreapp3.1\bai7.exe
+E:\E\nashtech\bai7\bin\Debug\netcoreapp3.1\bai7.deps.json
+E:\E\nashtech\bai7\bin\Debug\netcoreapp3.1\bai7.runtimeconfig.json
+E:\E\nashtech\bai7\bin\Debug\netcoreapp3.1\bai7.runtimeconfig.dev.json
+E:\E\nashtech\bai7\bin\Debug\netcoreapp3.1\bai7.dll
+E:\E\nashtech\bai7\bin\Debug\netcoreapp3.1\bai7.pdb
+E:\E\nashtech\bai7\bin\Debug\netcoreapp3.1\bai7.Views.dll
+E:\E\nashtech\bai7\bin\Debug\netcoreapp3.1\bai7.Views.pdb
+E:\E\nashtech\bai7\obj\Debug\netcoreapp3.1\bai7.AssemblyInfoInputs.cache
+E:\E\nashtech\bai7\obj\Debug\netcoreapp3.1\bai7.AssemblyInfo.cs
+E:\E\nashtech\bai7\obj\Debug\netcoreapp3.1\bai7.csproj.CoreCompileInputs.cache
+E:\E\nashtech\bai7\obj\Debug\netcoreapp3.1\bai7.MvcApplicationPartsAssemblyInfo.cache
+E:\E\nashtech\bai7\obj\Debug\netcoreapp3.1\bai7.RazorAssemblyInfo.cache
+E:\E\nashtech\bai7\obj\Debug\netcoreapp3.1\bai7.RazorAssemblyInfo.cs
+E:\E\nashtech\bai7\obj\Debug\netcoreapp3.1\bai7.TagHelpers.input.cache
+E:\E\nashtech\bai7\obj\Debug\netcoreapp3.1\bai7.TagHelpers.output.cache
+E:\E\nashtech\bai7\obj\Debug\netcoreapp3.1\bai7.RazorCoreGenerate.cache
+E:\E\nashtech\bai7\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+E:\E\nashtech\bai7\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+E:\E\nashtech\bai7\obj\Debug\netcoreapp3.1\Razor\Views\Rookies\Create.cshtml.g.cs
+E:\E\nashtech\bai7\obj\Debug\netcoreapp3.1\Razor\Views\Rookies\Delete.cshtml.g.cs
+E:\E\nashtech\bai7\obj\Debug\netcoreapp3.1\Razor\Views\Rookies\Edit.cshtml.g.cs
+E:\E\nashtech\bai7\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+E:\E\nashtech\bai7\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+E:\E\nashtech\bai7\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+E:\E\nashtech\bai7\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+E:\E\nashtech\bai7\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+E:\E\nashtech\bai7\obj\Debug\netcoreapp3.1\bai7.RazorTargetAssemblyInfo.cache
+E:\E\nashtech\bai7\obj\Debug\netcoreapp3.1\bai7.RazorTargetAssemblyInfo.cs
+E:\E\nashtech\bai7\obj\Debug\netcoreapp3.1\bai7.Views.pdb
+E:\E\nashtech\bai7\obj\Debug\netcoreapp3.1\staticwebassets\bai7.StaticWebAssets.Manifest.cache
+E:\E\nashtech\bai7\obj\Debug\netcoreapp3.1\staticwebassets\bai7.StaticWebAssets.xml
+E:\E\nashtech\bai7\obj\Debug\netcoreapp3.1\bai7.dll
+E:\E\nashtech\bai7\obj\Debug\netcoreapp3.1\bai7.pdb
+E:\E\nashtech\bai7\obj\Debug\netcoreapp3.1\bai7.genruntimeconfig.cache
+E:\E\nashtech\bai7\obj\Debug\netcoreapp3.1\bai7.csproj.CopyComplete
+E:\E\nashtech\bai7\obj\Debug\netcoreapp3.1\Razor\Views\Rookies\Index.cshtml.g.cs
+E:\E\nashtech\bai7\obj\Debug\netcoreapp3.1\bai7.csproj.AssemblyReference.cache
+E:\E\nashtech\bai7\obj\Debug\netcoreapp3.1\scopedcss\bundle\bai7.styles.css
+E:\E\.net core\bai7\bin\Debug\netcoreapp3.1\appsettings.Development.json
+E:\E\.net core\bai7\bin\Debug\netcoreapp3.1\appsettings.json
+E:\E\.net core\bai7\bin\Debug\netcoreapp3.1\bai7.exe
+E:\E\.net core\bai7\bin\Debug\netcoreapp3.1\bai7.deps.json
+E:\E\.net core\bai7\bin\Debug\netcoreapp3.1\bai7.runtimeconfig.json
+E:\E\.net core\bai7\bin\Debug\netcoreapp3.1\bai7.runtimeconfig.dev.json
+E:\E\.net core\bai7\bin\Debug\netcoreapp3.1\bai7.dll
+E:\E\.net core\bai7\bin\Debug\netcoreapp3.1\bai7.pdb
+E:\E\.net core\bai7\bin\Debug\netcoreapp3.1\bai7.Views.dll
+E:\E\.net core\bai7\bin\Debug\netcoreapp3.1\bai7.Views.pdb
+E:\E\.net core\bai7\obj\Debug\netcoreapp3.1\bai7.csproj.AssemblyReference.cache
+E:\E\.net core\bai7\obj\Debug\netcoreapp3.1\bai7.AssemblyInfoInputs.cache
+E:\E\.net core\bai7\obj\Debug\netcoreapp3.1\bai7.AssemblyInfo.cs
+E:\E\.net core\bai7\obj\Debug\netcoreapp3.1\bai7.csproj.CoreCompileInputs.cache
+E:\E\.net core\bai7\obj\Debug\netcoreapp3.1\bai7.MvcApplicationPartsAssemblyInfo.cache
+E:\E\.net core\bai7\obj\Debug\netcoreapp3.1\bai7.RazorAssemblyInfo.cache
+E:\E\.net core\bai7\obj\Debug\netcoreapp3.1\bai7.RazorAssemblyInfo.cs
+E:\E\.net core\bai7\obj\Debug\netcoreapp3.1\staticwebassets\bai7.StaticWebAssets.Manifest.cache
+E:\E\.net core\bai7\obj\Debug\netcoreapp3.1\staticwebassets\bai7.StaticWebAssets.xml
+E:\E\.net core\bai7\obj\Debug\netcoreapp3.1\scopedcss\bundle\bai7.styles.css
+E:\E\.net core\bai7\obj\Debug\netcoreapp3.1\bai7.TagHelpers.input.cache
+E:\E\.net core\bai7\obj\Debug\netcoreapp3.1\bai7.TagHelpers.output.cache
+E:\E\.net core\bai7\obj\Debug\netcoreapp3.1\bai7.RazorCoreGenerate.cache
+E:\E\.net core\bai7\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+E:\E\.net core\bai7\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+E:\E\.net core\bai7\obj\Debug\netcoreapp3.1\Razor\Views\Rookies\Create.cshtml.g.cs
+E:\E\.net core\bai7\obj\Debug\netcoreapp3.1\Razor\Views\Rookies\Delete.cshtml.g.cs
+E:\E\.net core\bai7\obj\Debug\netcoreapp3.1\Razor\Views\Rookies\Edit.cshtml.g.cs
+E:\E\.net core\bai7\obj\Debug\netcoreapp3.1\Razor\Views\Rookies\Index.cshtml.g.cs
+E:\E\.net core\bai7\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+E:\E\.net core\bai7\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+E:\E\.net core\bai7\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+E:\E\.net core\bai7\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+E:\E\.net core\bai7\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+E:\E\.net core\bai7\obj\Debug\netcoreapp3.1\bai7.RazorTargetAssemblyInfo.cache
+E:\E\.net core\bai7\obj\Debug\netcoreapp3.1\bai7.RazorTargetAssemblyInfo.cs
+E:\E\.net core\bai7\obj\Debug\netcoreapp3.1\bai7.Views.pdb
+E:\E\.net core\bai7\obj\Debug\netcoreapp3.1\bai7.dll
+E:\E\.net core\bai7\obj\Debug\netcoreapp3.1\bai7.pdb
+E:\E\.net core\bai7\obj\Debug\netcoreapp3.1\bai7.genruntimeconfig.cache
+E:\E\.net core\bai7\obj\Debug\netcoreapp3.1\bai7.csproj.CopyComplete
+E:\E\.net core\bai7\obj\Debug\netcoreapp3.1\Razor\Views\Rookies\Detail.cshtml.g.cs

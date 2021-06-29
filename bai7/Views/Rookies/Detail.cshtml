@@ -1,0 +1,34 @@
+@model bai7.Models.PersonModel;
+
+<form asp-controller="Rookies" asp-action="Detail" >
+    <div>   
+        @Html.LabelFor(x=>x.FirstName)
+        @Html.DisplayFor(x=>x.FirstName)
+    </div>
+    <div>
+        @Html.LabelFor(x=>x.LastName)
+        @Html.DisplayFor(x=>x.LastName)
+    </div>
+    <div>
+        @Html.LabelFor(x=>x.Gender)
+        @Html.DisplayFor(x=>x.Gender)</div>
+    <div>
+        @Html.LabelFor(x=>x.Dob)
+        @Html.DisplayFor(x=>x.Dob)
+    </div>
+    <div>
+        @Html.LabelFor(x=>x.PhoneNumber)
+        @Html.DisplayFor(x=>x.PhoneNumber)
+    </div>
+    <div>
+        @Html.LabelFor(x=>x.Email)
+        @Html.DisplayFor(x=>x.Email)
+    </div>
+    <br/>
+    
+    <input type="submit" value="Delete" asp-route-phoneNumber="@Model.PhoneNumber" />
+    
+    
+    
+    
+</form>

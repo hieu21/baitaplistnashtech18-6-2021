@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "FwDq18blcuYXoCx4Bzk94NJT5vPjp317YgIyrtka20OURlskJS4OifiiNqzuMqUS1TSOQ6M9A9uXslQhVAj14Q==",
+  "success": true,
+  "projectFilePath": "E:\\E\\.net core\\bai7\\bai7.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\domin\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\domin\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.16\\microsoft.netcore.app.host.win-x64.3.1.16.nupkg.sha512"
+  ],
+  "logs": []
+}

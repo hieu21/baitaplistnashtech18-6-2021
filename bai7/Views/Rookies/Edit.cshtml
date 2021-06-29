@@ -1,0 +1,33 @@
+@model bai7.Models.PersonModel;
+
+<form asp-controller="Rookies" asp-action="Edit" >
+    <div>   
+        @Html.LabelFor(x=>x.FirstName)
+        @Html.EditorFor(x=>x.FirstName)
+    </div>
+    <div>
+        @Html.LabelFor(x=>x.LastName)
+        @Html.EditorFor(x=>x.LastName)
+    </div>
+    <div>
+        @Html.LabelFor(x=>x.Gender)
+        @Html.EditorFor(x=>x.Gender)</div>
+    <div>
+        @Html.LabelFor(x=>x.Dob)
+        @Html.EditorFor(x=>x.Dob)
+    </div>
+    <div>
+        @Html.LabelFor(x=>x.PhoneNumber)
+        @Html.EditorFor(x=>x.PhoneNumber)
+    </div>
+    <div>
+        @Html.LabelFor(x=>x.Email)
+        @Html.EditorFor(x=>x.Email)
+    </div>
+    <br/>
+    <input type="submit" value="Edit" />
+    
+    
+    
+    
+</form>
